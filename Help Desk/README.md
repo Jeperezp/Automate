@@ -41,8 +41,3 @@ El flujo incluye varias acciones organizadas en secciones que cubren las diferen
 - **Credenciales** para acceder al sistema de gestión de tickets y correo electrónico.
 - Conexiones configuradas en Power Automate.
 
-## 📦 Instalación
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/TuUsuario/SqlWorkout.git
