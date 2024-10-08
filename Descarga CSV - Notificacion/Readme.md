@@ -46,4 +46,4 @@ El flujo consta de las siguientes acciones:
 
 El flujo incluye varias acciones organizadas en secciones que cubren las diferentes fases del proceso. En la siguiente imagen se muestra el diagrama completo del flujo de Power Automate:
 
-![Diagrama del Flujo](assets/Diagrama_de_Flujo.png)
+![Diagrama del Flujo](assets/Descarga_csv_Notificacion.JPG)
