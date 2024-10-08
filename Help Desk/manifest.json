@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "details": {
+    "displayName": "Help_Desk",
+    "description": "",
+    "createdTime": "2024-10-07T00:44:15.4575148Z",
+    "packageTelemetryId": "078c87ff-616b-4dbf-8eeb-fc99c808eeee",
+    "creator": "N/D",
+    "sourceEnvironment": ""
+  },
+  "resources": {
+    "45932b75-5cb4-49fb-b4c8-15cf552d1bc2": {
+      "type": "Microsoft.Flow/flows",
+      "suggestedCreationType": "Update",
+      "creationType": "Existing, New, Update",
+      "details": {
+        "displayName": "00_DAMC_Tickets_Formulario_Retrasmisiones"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Root",
+      "dependsOn": [
+        "66e3701a-a3a5-43f5-8b52-00aa20ed92bc",
+        "9dffdf23-779d-4896-a2ae-e1c095b63fa3",
+        "50456899-1b27-407c-a6ca-051f978a0f49",
+        "6bd8c5cb-16db-4644-bca1-7bd82f9a8b03",
+        "cafe1292-a339-41b6-baa7-ebdfeb5cec57",
+        "ae703969-4f58-4356-9869-16287ca585fd",
+        "f148bc48-d726-4486-8df0-511bc2f2095f",
+        "58ab41b4-781a-4ff1-876e-e76cabc044ab",
+        "d072449d-def8-42b9-af2b-a9a6149aaacf",
+        "caa690a6-81b8-4abb-9a21-515c0494fe2b",
+        "7fe1579b-625f-43dc-bbd0-2e1fae3e8c92",
+        "a61e1e5a-0bd4-4f47-a911-673d297176a5",
+        "1146f702-dc66-4b6e-971e-1c961c992ee6"
+      ]
+    },
+    "66e3701a-a3a5-43f5-8b52-00aa20ed92bc": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_microsoftforms",
+      "name": "shared_microsoftforms",
+      "type": "Microsoft.PowerApps/apis",
+      "suggestedCreationType": "Existing",
+      "details": {
+        "displayName": "Microsoft Forms",
+        "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3695/microsoftforms/icon.png"
+      },
+      "configurableBy": "System",
+      "hierarchy": "Child",
+      "dependsOn": []
+    },
+    "9dffdf23-779d-4896-a2ae-e1c095b63fa3": {
+      "type": "Microsoft.PowerApps/apis/connections",
+      "suggestedCreationType": "Existing",
+      "creationType": "Existing",
+      "details": {
+        "displayName": "jhperez@superfinanciera.gov.co",
+        "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/microsoftforms/icon.png"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Child",
+      "dependsOn": [
+        "66e3701a-a3a5-43f5-8b52-00aa20ed92bc"
+      ]
+    },
+    "50456899-1b27-407c-a6ca-051f978a0f49": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+      "name": "shared_sharepointonline",
+      "type": "Microsoft.PowerApps/apis",
+      "suggestedCreationType": "Existing",
+      "details": {
+        "displayName": "SharePoint",
+        "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png"
+      },
+      "configurableBy": "System",
+      "hierarchy": "Child",
+      "dependsOn": []
+    },
+    "6bd8c5cb-16db-4644-bca1-7bd82f9a8b03": {
+      "type": "Microsoft.PowerApps/apis/connections",
+      "suggestedCreationType": "Existing",
+      "creationType": "Existing",
+      "details": {
+        "displayName": "jhperez@superfinanciera.gov.co",
+        "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Child",
+      "dependsOn": [
+        "50456899-1b27-407c-a6ca-051f978a0f49"
+      ]
+    },
+    "cafe1292-a339-41b6-baa7-ebdfeb5cec57": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365",
+      "name": "shared_office365",
+      "type": "Microsoft.PowerApps/apis",
+      "suggestedCreationType": "Existing",
+      "details": {
+        "displayName": "Office 365 Outlook",
+        "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1706/1.0.1706.3851/office365/icon.png"
+      },
+      "configurableBy": "System",
+      "hierarchy": "Child",
+      "dependsOn": []
+    },
+    "ae703969-4f58-4356-9869-16287ca585fd": {
+      "type": "Microsoft.PowerApps/apis/connections",
+      "suggestedCreationType": "Existing",
+      "creationType": "Existing",
+      "details": {
+        "displayName": "jhperez@superfinanciera.gov.co",
+        "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365/icon.png"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Child",
+      "dependsOn": [
+        "cafe1292-a339-41b6-baa7-ebdfeb5cec57"
+      ]
+    },
+    "f148bc48-d726-4486-8df0-511bc2f2095f": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_approvals",
+      "name": "shared_approvals",
+      "type": "Microsoft.PowerApps/apis",
+      "suggestedCreationType": "Existing",
+      "details": {
+        "displayName": "Aprobaciones",
+        "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/partial-builds/1711/1.0.1711.3876/approvals/icon.png"
+      },
+      "configurableBy": "System",
+      "hierarchy": "Child",
+      "dependsOn": []
+    },
+    "58ab41b4-781a-4ff1-876e-e76cabc044ab": {
+      "type": "Microsoft.PowerApps/apis/connections",
+      "suggestedCreationType": "Existing",
+      "creationType": "Existing",
+      "details": {
+        "displayName": "Approvals",
+        "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1650/1.0.1650.3374/approvals/icon.png"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Child",
+      "dependsOn": [
+        "f148bc48-d726-4486-8df0-511bc2f2095f"
+      ]
+    },
+    "d072449d-def8-42b9-af2b-a9a6149aaacf": {
+      "type": "Microsoft.PowerApps/apis/connections",
+      "suggestedCreationType": "Existing",
+      "creationType": "Existing",
+      "details": {
+        "displayName": "jhperez@superfinanciera.gov.co",
+        "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365/icon.png"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Child",
+      "dependsOn": [
+        "cafe1292-a339-41b6-baa7-ebdfeb5cec57"
+      ]
+    },
+    "caa690a6-81b8-4abb-9a21-515c0494fe2b": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_onedriveforbusiness",
+      "name": "shared_onedriveforbusiness",
+      "type": "Microsoft.PowerApps/apis",
+      "suggestedCreationType": "Existing",
+      "details": {
+        "displayName": "OneDrive para la Empresa",
+        "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1689/1.0.1689.3722/onedriveforbusiness/icon.png"
+      },
+      "configurableBy": "System",
+      "hierarchy": "Child",
+      "dependsOn": []
+    },
+    "7fe1579b-625f-43dc-bbd0-2e1fae3e8c92": {
+      "type": "Microsoft.PowerApps/apis/connections",
+      "suggestedCreationType": "Existing",
+      "creationType": "Existing",
+      "details": {
+        "displayName": "jhperez@superfinanciera.gov.co",
+        "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1546/1.0.1546.2665/onedriveforbusiness/icon.png"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Child",
+      "dependsOn": [
+        "caa690a6-81b8-4abb-9a21-515c0494fe2b"
+      ]
+    },
+    "a61e1e5a-0bd4-4f47-a911-673d297176a5": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_excelonlinebusiness",
+      "name": "shared_excelonlinebusiness",
+      "type": "Microsoft.PowerApps/apis",
+      "suggestedCreationType": "Existing",
+      "details": {
+        "displayName": "Excel Online (Empresas)",
+        "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1702/1.0.1702.3814/excelonlinebusiness/icon.png"
+      },
+      "configurableBy": "System",
+      "hierarchy": "Child",
+      "dependsOn": []
+    },
+    "1146f702-dc66-4b6e-971e-1c961c992ee6": {
+      "type": "Microsoft.PowerApps/apis/connections",
+      "suggestedCreationType": "Existing",
+      "creationType": "Existing",
+      "details": {
+        "displayName": "jhperez@superfinanciera.gov.co",
+        "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1639/1.0.1639.3319/excelonlinebusiness/icon.png"
+      },
+      "configurableBy": "User",
+      "hierarchy": "Child",
+      "dependsOn": [
+        "a61e1e5a-0bd4-4f47-a911-673d297176a5"
+      ]
+    }
+  }
+}
